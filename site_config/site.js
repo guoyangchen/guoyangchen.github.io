@@ -9,7 +9,7 @@ export default {
       },
       {
         text: 'DOCS',
-        link: '/docs/demo1.md',
+        link: '/docs/goals.md',
       },
     ],
     disclaimer: {
@@ -56,7 +56,7 @@ export default {
       },
       {
         text: '文档',
-        link: '/docs/demo1.md',
+        link: '/docs/goals.md',
       },
     ],
     disclaimer: {

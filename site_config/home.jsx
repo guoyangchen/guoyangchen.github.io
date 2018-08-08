@@ -11,7 +11,7 @@ export default {
         },
         {
           text: '测评结果',
-          link: '/docs/results.md',
+          link: './docs/en-us/results.md',
 	  type: 'normal',
         },
       ],
@@ -36,7 +36,7 @@ export default {
         },
         {
           text: 'Evaluation Results',
-          link: '/docs/results.md',
+          link: './docs/en-us/results.md',
           type: 'normal',
         },
       ],

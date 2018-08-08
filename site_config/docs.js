@@ -5,8 +5,8 @@ export default {
         title: 'Documentation',
         children: [
           {
-            title: 'Goal',
-            link: '/docs/goal.md',
+            title: 'Goals',
+            link: '/docs/goals.md',
           },
           {
             title: 'Contents',
@@ -24,25 +24,19 @@ export default {
   'zh-cn': {
     sidemenu: [
       {
-        title: '大标题',
+        title: '文档',
         children: [
           {
-            title: '示例1',
-            link: '/docs/demo1.md',
+            title: '目标',
+            link: '/docs/goals.md',
           },
           {
-            title: '示例2',
-            link: '/docs/demo2.md',
+            title: '内容',
+            link: '/docs/contents.md',
           },
           {
-            title: '目录',
-            opened: true,
-            children: [
-              {
-                title: '示例3',
-                link: '/docs/dir/demo3.md',
-              },
-            ],
+            title: '标准',
+            link: '/docs/metrics.md',
           },
         ],
       },
