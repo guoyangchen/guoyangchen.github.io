@@ -1,0 +1,46 @@
+{
+  "zh-cn": [
+    {
+      "filename": "demo1.md",
+      "__html": "<h1>脚注的使用</h1>\n<p>这是一段示例文字，展示脚注的使用。\n这是脚注1 <sup class=\"footnote-ref\"><a href=\"#fn1\" id=\"fnref1\">[1]</a></sup>。点击脚注滚动至对应脚注处。</p>\n<p>下面是一大段文字，填充开始。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。\n这是填充文字。</p>\n<hr class=\"footnotes-sep\">\n<section class=\"footnotes\">\n<ol class=\"footnotes-list\">\n<li id=\"fn1\" class=\"footnote-item\"><p>这是脚注的说明 <a href=\"#fnref1\" class=\"footnote-backref\">↩︎</a></p>\n</li>\n</ol>\n</section>\n"
+    },
+    {
+      "filename": "demo2.md",
+      "__html": "<h1>文档之间跳转、图片引用的示例</h1>\n<p>文档之间的跳转链接按照文件目录之间的相对关系配置即可，推荐在同一语言目录下的不同文件夹间跳转，以缩短配置路径。\n点击跳转： <a href=\"./demo1.md\">demo1.md</a>。</p>\n<p>图片的引用，支持绝对引用和相对引用，如果是相对引用，同文档之间的相互引用一样，是按照文件之间的相对路径进行处理的。比如\n<img src=\"./img/brhtqqzh.jpeg\" alt=\"\"></p>\n"
+    },
+    {
+      "filename": "dir/demo3.md",
+      "__html": "<h1>跨目录文档之间跳转、图片引用的示例</h1>\n<p>这是一段文字，将要跳转到demo1。\n文档之间的跳转链接按照文件目录之间的相对关系配置即可，推荐在同一语言目录下的不同文件夹间跳转，以缩短配置路径。\n点击跳转： <a href=\"../demo1.md\">demo1.md</a>。</p>\n<p>图片的引用，支持绝对引用和相对引用，如果是相对引用，同文档之间的相互引用一样，是按照文件之间的相对路径进行处理的。比如\n<img src=\"../img/brhtqqzh.jpeg\" alt=\"\"></p>\n"
+    },
+    {
+      "filename": "results.md",
+      "__html": "<p>Coming soon...</p>\n"
+    }
+  ],
+  "en-us": [
+    {
+      "filename": "contents.md",
+      "__html": "<h1>Benchmarks</h1>\n<h3>Micro Benchmarks</h3>\n<p>The micro benchmark category consists of tests that measure the performance of the basic operations involved in training deep learning neural networks. This category mainly targets the GPU hardware platform and consists of the following tests.</p>\n<h3>GEMM</h3>\n<p>Matrix-matrix multiplication (GEMM) is a fundamental operation in many scientific, engineering, and machine learning applications. There is a continuing demand to optimize this operation. This test consists of a variaty of differently parameterized GEMM operations, convolution, and memory operations.</p>\n<h3>Layer-based Benchmarks</h3>\n<p>The neural networks are consisted of one or more layers and each layer involves some commonly used operations. The layer-based benchmarks create layers using these important operations and aim at testing the performance of running these layers on hardware.</p>\n<h3>Macro Benchmarks</h3>\n<p>The macro benchmarks collect a couple of commonly used models in both academia and industry, including ILSVRC champions, CNN networks, and RNN networks. They test the performance of complete nerual networks, including training and inference under different software frameworks, such as TF, caffe and combination with tensorRT.<br>\nThe CNN models consist of the following:<br>\ngooglenet<br>\nvgg16<br>\nresnet50<br>\nresnet152<br>\ndensenet</p>\n<p>The RNN models consist of the following:<br>\nnatural machine translation (NMT)<br>\ndeepspeech</p>\n"
+    },
+    {
+      "filename": "demo2.md",
+      "__html": "<h1>demo for reference of md or image for relative path</h1>\n<p>if you want to reference to another md, the path can be written in the format of relative path under the circumstance of file system.\nclick here： <a href=\"./demo1.md\">demo1.md</a>。</p>\n<p>the same is to image.\n<img src=\"./img/brhtqqzh.jpeg\" alt=\"\"></p>\n"
+    },
+    {
+      "filename": "dir/demo3.md",
+      "__html": "<h1>demo for reference of md or image for relative path, across directory</h1>\n<p>if you want to reference to another md, the path can be written in the format of relative path under the circumstance of file system.\nclick here： <a href=\"../demo1.md\">demo1.md</a>。</p>\n<p>the same is to image.\n<img src=\"../img/brhtqqzh.jpeg\" alt=\"\"></p>\n"
+    },
+    {
+      "filename": "goals.md",
+      "__html": "<h1>Goal</h1>\n<p>AIMatrix is a benchmark suite for testing AI software frameworks and hardware platforms. It aims at providing users a means of measuring the performance of different AI sofware and hardware and comparing their pros and cons. It also helps users gain insights into the factors that affect AI hardware performance and improve hardware design.</p>\n<p>The AIMatrix suite consists of four categories of tests: micro benchmark, layer-based benchmark, macro benchmark, and synthetic benchmark. The layer-based and macro benchmarks use tensorflow and caffe software frameworks, which are commonly used in AI applications, and are portable across a wide range of AI hardware platforms.</p>\n"
+    },
+    {
+      "filename": "metrics.md",
+      "__html": "<h1>Metrics</h1>\n<p>AI Matrix consider a number of specs to measure the performance and energy efficiency of AI software frameworks and hardware platforms.</p>\n<ul>\n<li>Wall clock time of running a benchmark</li>\n</ul>\n<p>In the coming revised versions, we think the following is also important to AI hardwares:</p>\n<ul>\n<li>Energy consumption of running a benchmark</li>\n<li>hardware utilization</li>\n</ul>\n"
+    },
+    {
+      "filename": "results.md",
+      "__html": "<p>Coming soon...</p>\n"
+    }
+  ]
+}
