@@ -56,4 +56,4 @@ We propose a synthetic benchmarks framework is firstly proposed to address the a
 
 # Suggestions
 We are still keep working hard to developing our benchmark suites. We are welcome to any suggestions, contributions and improvements from anyone. Please do not hesitate to contact us if you want to involve. Thanks.
-You could submit questions on Github or contact us through w.wei@alibaba-inc.com
+You could submit questions on Github or contact us through w.wei@alibaba-inc.com or wz.ww@alibaba-inc.com

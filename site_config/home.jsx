@@ -11,7 +11,7 @@ export default {
         },
         {
           text: '测评结果',
-          link: './docs/en-us/results.md',
+          link: 'https://github.com/alibaba/ai-matrix/results',
 	  type: 'normal',
         },
       ],
@@ -36,7 +36,7 @@ export default {
         },
         {
           text: 'Evaluation Results',
-          link: './docs/en-us/results.md',
+          link: 'https://github.com/alibaba/ai-matrix/results',
           type: 'normal',
         },
       ],
