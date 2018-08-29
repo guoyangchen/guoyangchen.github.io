@@ -17,10 +17,10 @@ export default {
       ],
     },
     users: {
-      title: '支持的阿里巴巴部门',
+      title: '参与组织',
       list: [
-        './img/alimama.png',
-        './img/users_alibaba.png',
+        './img/alibaba-color.jpg',
+       
       ],
     },
   },
@@ -42,10 +42,10 @@ export default {
       ],
     },
     users: {
-      title: 'Supporting Alibaba BU',
+      title: 'Supporting Organizations',
       list: [
-        './img/alimama.png',
-        './img/users_alibaba.png',
+        './img/alibaba-color.jpg',
+        
       ],
     },
   },
