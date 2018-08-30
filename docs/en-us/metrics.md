@@ -3,6 +3,6 @@ There are a lot of factors that can affect the AI applications' final performanc
  
 In the coming revised versions, we propose considering the following metrics as normalization metrics.
 - Energy consumption of running a benchmark
-- hardware utilization
+- Hardware utilization
 
   
