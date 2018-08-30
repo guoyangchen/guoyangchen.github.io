@@ -47,7 +47,7 @@ Alimama belongs to Alibaba Group, is a leading marketing platform for Big Data w
 Model are contributed by the authors of "Deep Interest Network for Click-Through Rate Prediction". Thanks for the contribution from Guorui Zhou, Peng Sun, Zelin Hu, etc..  
 https://github.com/zhougr1993/DeepInterestNetwork
 
-### Synthetic Benchmarks  
+### Synthetic Benchmarks (StatsNet) 
 Deep learning (DL) architecture, such as convolutional neural networks (CNN), involves heavy computation and require hardware, such as CPU, GPU, and AI accelerators, to provide the massive computing power. With the many varieties of AI hardware prevailing on the market, it is often hard to decide which one is the best to use. Thus, benchmarking AI hardware effectively becomes important and is of great help to select and optimize AI hardware.
 
 Unfortunately, the current AI benchmarks always suffer some drawbacks of traditional benchmarks. First, they cannot adapt to the emerging changes of DL algorithms and are fixed once selected. Second, they contain tens to hundreds of applications and take very long time to finish running. Third, they are mainly selected from open sources, which are restricted by copyright and are not representable to proprietary applications.
@@ -56,4 +56,4 @@ We propose a synthetic benchmarks framework is firstly proposed to address the a
 
 # Suggestions
 We are still keep working hard to developing our benchmark suites. We are welcome to any suggestions, contributions and improvements from anyone. Please do not hesitate to contact us if you want to involve. Thanks.
-You could submit questions on Github or contact us through w.wei@alibaba-inc.com or wz.ww@alibaba-inc.com
+You could submit questions on Github or contact us through aimatrix@list.alibaba-inc.com
