@@ -14,6 +14,16 @@ export default {
           link: 'https://github.com/alibaba/ai-matrix/tree/master/results',
 	  type: 'normal',
         },
+        {
+          text: '前往 Github',
+          link: 'https://github.com/alibaba/ai-matrix',
+          type: 'normal',
+        },
+        {
+          text: '前往 Github',
+          link: 'https://github.com/alibaba/ai-matrix',
+          type: 'normal',
+        },
       ],
     },
     users: {
