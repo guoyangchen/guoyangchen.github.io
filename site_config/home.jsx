@@ -15,13 +15,13 @@ export default {
 	  type: 'normal',
         },
         {
-          text: '前往 Github',
-          link: 'https://github.com/alibaba/ai-matrix',
+          text: '目标',
+          link: './doc/zh-cn/goals.md',
           type: 'normal',
         },
         {
-          text: '前往 Github',
-          link: 'https://github.com/alibaba/ai-matrix',
+          text: '技术博客',
+          link: './blog/zh-cn/blog1.md',
           type: 'normal',
         },
       ],
