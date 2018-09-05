@@ -1,4 +1,5 @@
 @import '../../variables.scss';
+@import '../../reset.scss';
 
 .home-page {
   .top-section {
@@ -33,17 +34,9 @@
     }
     .button-area {
       text-align: center;
-      .button:first-child {
+      transform: translateX(10px);
+      .button {
         margin-right: 20px;
-      }
-      .button:nth-child(2) {
-        margin-right: 20px;
-      }
-      .button:nth-child(3) {
-        margin-right: 20px;
-      }
-      .button:nth-child(4) {
-        margin-right: auto;
       }
     }
     @keyframes star {
@@ -110,7 +103,7 @@
       font-size: 36px;
       color: #333;
       text-align: center;
-      margin-top: 0;
+      margin-bottom: 60px;
     }
     .users {
       // display: flex;

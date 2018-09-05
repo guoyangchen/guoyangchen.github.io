@@ -1,13 +1,10 @@
 import React from 'react';
-import { Link, Redirect } from 'react-router-dom';
-import cookie from 'js-cookie';
-import qs from 'querystring';
-import { getScrollTop } from '../../../utils';
+import ReactDOM from 'react-dom';
+import { getScrollTop, getLink } from '../../../utils';
 import Header from '../../components/header';
 import Button from '../../components/button';
 import Footer from '../../components/footer';
 import Language from '../../components/language';
-import siteConfig from '../../../site_config/site';
 import homeConfig from '../../../site_config/home';
 import './index.scss';
 
@@ -21,7 +18,7 @@ class Home extends Language {
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', () => {
+    const adjustHeaderLogo = () => {
       const scrollTop = getScrollTop();
       if (scrollTop > 66) {
         this.setState({
@@ -32,31 +29,21 @@ class Home extends Language {
           headerType: 'primary',
         });
       }
-    });
+    };
+    adjustHeaderLogo();
+    window.addEventListener('scroll', adjustHeaderLogo);
   }
 
   render() {
-    const hashSearch = window.location.hash.split('?');
-    const search = qs.parse(hashSearch[1] || '');
-    let language = search.lang || cookie.get('docsite_language') || siteConfig.defaultLanguage;
-    // 防止链接被更改导致错误的cookie存储
-    if (language !== 'en-us' && language !== 'zh-cn') {
-      language = siteConfig.defaultLanguage;
-    }
-    // 同步cookie和search上的语言版本
-    if (language !== cookie.get('docsite_language')) {
-      cookie.set('docsite_language', language, { expires: 365, path: '' });
-    }
-    if (!search.lang) {
-      return <Redirect to={`${this.props.match.url}?lang=${language}`} />;
-    }
+    const language = this.getLanguage();
     const dataSource = homeConfig[language];
     const { headerType } = this.state;
-    const headerLogo = headerType === 'primary' ? './img/ai_small_white.png' : './img/ai_small_green.png';
+    const headerLogo = headerType === 'primary' ? getLink('/img/ai_small_white.png') : getLink('/img/ai_small_green.png');
     return (
       <div className="home-page">
         <section className="top-section">
           <Header
+            currentKey="home"
             type={headerType}
             logo={headerLogo}
             language={language}
@@ -70,12 +57,12 @@ class Home extends Language {
           <div className="animation animation6" />
           <div className="vertical-middle">
             <div className="product-logo">
-              <img src={dataSource.brand.brandImg} />
+              <img src={getLink(dataSource.brand.brandImg)} />
             </div>
             <p className="product-desc">{dataSource.brand.briefIntroduction}</p>
             <div className="button-area">
             {
-              dataSource.brand.buttons.map(b => <Button type={b.type} link={b.link}>{b.text}</Button>)
+              dataSource.brand.buttons.map((b, i) => <Button key={i} type={b.type} link={b.link} target={b.target}>{b.text}</Button>)
             }
           </div>
           </div>
@@ -85,16 +72,18 @@ class Home extends Language {
           <div className="users">
           {
             dataSource.users.list.map((user, i) => (
-              <img src={user} key={i} />
+              <img src={getLink(user)} key={i} />
             ))
           }
           </div>
         </section>
-        <Footer />
+        <Footer language={language} />
       </div>
     );
   }
 }
 
+
+document.getElementById('root') && ReactDOM.render(<Home />, document.getElementById('root'));
 
 export default Home;

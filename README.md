@@ -7,4 +7,4 @@ AI Matrix站点。
 4. Run docsite build to build source code.
 5. Commit all the changes.
 
-详细参照 [https://txd-team.github.io/docsite-doc/](https://txd-team.github.io/docsite-doc/)
+详细参照 [https://txd-team.github.io/docsite-doc-v1/](https://txd-team.github.io/docsite-doc-v1/)

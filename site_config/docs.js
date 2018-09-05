@@ -6,15 +6,15 @@ export default {
         children: [
           {
             title: 'Goals',
-            link: '/docs/goals.md',
+            link: '/en-us/docs/goals.html',
           },
           {
             title: 'Contents',
-            link: '/docs/contents.md',
+            link: '/en-us/docs/contents.html',
           },
           {
             title: 'Metrics',
-            link: '/docs/metrics.md',
+            link: '/en-us/docs/metrics.html',
           },
         ],
       },
@@ -28,15 +28,15 @@ export default {
         children: [
           {
             title: '目标',
-            link: '/docs/goals.md',
+            link: '/zh-cn/docs/goals.html',
           },
           {
             title: '内容',
-            link: '/docs/contents.md',
+            link: '/zh-cn/docs/contents.html',
           },
           {
             title: '标准',
-            link: '/docs/metrics.md',
+            link: '/zh-cn/docs/metrics.html',
           },
         ],
       },

@@ -86,7 +86,6 @@
     }
     .language-switch {
       float: right;
-      display: inline-block;
       box-sizing: border-box;
       width: 24px;
       height: 24px;
@@ -140,6 +139,7 @@
           right: 0;
           top: $headerHeight;
           z-index: 100;
+          box-shadow: 0 2px 20px 0 rgba(0,0,0,0.08);
         }
         li {
           width: 200px;

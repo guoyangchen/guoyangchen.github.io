@@ -1,7 +1,7 @@
 export default {
   'zh-cn': {
     brand: {
-      brandImg: './img/ai_big_green.png',
+      brandImg: '/img/ai_big_green.png',
       briefIntroduction: '让天下没有难测的AI加速器',
       buttons: [
         {
@@ -12,16 +12,16 @@ export default {
         {
           text: '测评结果',
           link: 'https://github.com/alibaba/ai-matrix/tree/master/results',
-	  type: 'normal',
+	        type: 'normal',
         },
         {
           text: '目标',
-          link: './doc/zh-cn/goals.md',
+          link: '/zh-cn/doc/goals.html',
           type: 'normal',
         },
         {
           text: '技术博客',
-          link: './blog/zh-cn/blog1.md',
+          link: '/zh-cn/blog/blog1.html',
           type: 'normal',
         },
       ],
@@ -29,14 +29,13 @@ export default {
     users: {
       title: '参与组织',
       list: [
-        './img/alibaba-color.jpg',
-       
+        '/img/alibaba-color.jpg', 
       ],
     },
   },
   'en-us': {
     brand: {
-      brandImg: './img/ai_big_green.png',
+      brandImg: '/img/ai_big_green.png',
       briefIntroduction: 'To make it easy to benchmark AI accelerators',
       buttons: [
         {
@@ -49,13 +48,22 @@ export default {
           link: 'https://github.com/alibaba/ai-matrix/tree/master/results',
           type: 'normal',
         },
+        {
+          text: 'Goals',
+          link: '/en-us/doc/goals.html',
+          type: 'normal',
+        },
+        {
+          text: 'Blog',
+          link: '/en-us/blog/blog1.html',
+          type: 'normal',
+        },
       ],
     },
     users: {
       title: 'Supporting Organizations',
       list: [
-        './img/alibaba-color.jpg',
-        
+        '/img/alibaba-color.jpg',
       ],
     },
   },

@@ -1,21 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import cookie from 'js-cookie';
-import { Link } from 'react-router-dom';
 import siteConfig from '../../../site_config/site';
+import { getLink } from '../../../utils';
 import './index.scss';
 
 const propTypes = {
-  logo: PropTypes.string.isRequired, // logo地址
+  logo: PropTypes.string, // logo地址
+  language: PropTypes.oneOf(['zh-cn', 'en-us']),
 };
 
 const Footer = (props) => {
-  const language = cookie.get('docsite_language') || siteConfig.defaultLanguage;
+  const language = props.language;
   const dataSource = siteConfig[language];
   return (
     <footer className="footer-container">
       <div className="footer-body">
-      {props.logo ? <img src={props.logo} /> : null}
+      {props.logo ? <img src={getLink(props.logo)} /> : null}
         <div className="cols-container">
           <div className="col col-12">
             <h3>{dataSource.disclaimer.title}</h3>
@@ -26,20 +26,20 @@ const Footer = (props) => {
               <dt>{dataSource.documentation.title}</dt>
               {
                 dataSource.documentation.list.map((d, i) => (
-                  <dd key={i}><Link to={d.link}>{d.text}</Link></dd>
+                  <dd key={i}><a href={d.link} target={d.target || '_self'}>{d.text}</a></dd>
                 ))
               }
             </dl>
           </div>
           <div className="col col-6">
-          <dl>
-          <dt>{dataSource.resources.title}</dt>
-          {
-            dataSource.resources.list.map((d, i) => (
-              <dd key={i}><Link to={d.link}>{d.text}</Link></dd>
-            ))
-          }
-          </dl>
+            <dl>
+              <dt>{dataSource.resources.title}</dt>
+              {
+                dataSource.resources.list.map((d, i) => (
+                  <dd key={i}><a href={d.link} target={d.target || '_self'}>{d.text}</a></dd>
+                ))
+              }
+            </dl>
           </div>
         </div>
         <div className="copyright"><span>{dataSource.copyright}</span></div>
