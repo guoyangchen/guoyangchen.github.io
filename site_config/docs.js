@@ -5,7 +5,7 @@ export default {
         title: 'Documentation',
         children: [
           {
-            title: 'Goals',
+            title: 'Mission',
             link: '/en-us/docs/goals.html',
           },
           {

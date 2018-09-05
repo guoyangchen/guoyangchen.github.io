@@ -2,7 +2,7 @@
 export default {
   defaultLanguage: 'en-us',
   rootPath: '', // 发布到服务器的根目录，需以/开头但不能有尾/，如果只有/，请填写空字符串
-  port: 8080, // 本地开发服务器的启动端口
+  port: 8090, // 本地开发服务器的启动端口
   'en-us': {
     pageMenu: [
       {
@@ -24,7 +24,7 @@ export default {
       title: 'Documentation',
       list: [
         {
-          text: 'Goals',
+          text: 'Mission',
           link: '/en-us/docs/goals.html',
         },
         {

@@ -10,13 +10,13 @@ export default {
           type: 'primary',
         },
         {
-          text: '测评结果',
-          link: 'https://github.com/alibaba/ai-matrix/tree/master/results',
+          text: '目标',
+          link: '/zh-cn/docs/goals.html',
           type: 'normal',
         },
         {
-          text: '目标',
-          link: '/zh-cn/docs/goals.html',
+          text: '测评结果',
+          link: 'https://github.com/alibaba/ai-matrix/tree/master/results',
           type: 'normal',
         },
         {
@@ -39,18 +39,18 @@ export default {
       briefIntroduction: 'To make it easy to benchmark AI accelerators',
       buttons: [
         {
-          text: 'View on Github',
+          text: 'Github',
           link: 'https://github.com/alibaba/ai-matrix',
           type: 'primary',
         },
         {
-          text: 'Evaluation Results',
-          link: 'https://github.com/alibaba/ai-matrix/tree/master/results',
+          text: 'Mission',
+          link: '/en-us/docs/goals.html',
           type: 'normal',
         },
         {
-          text: 'Goals',
-          link: '/en-us/docs/goals.html',
+          text: 'Evaluation',
+          link: 'https://github.com/alibaba/ai-matrix/tree/master/results',
           type: 'normal',
         },
         {
