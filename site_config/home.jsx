@@ -12,11 +12,11 @@ export default {
         {
           text: '测评结果',
           link: 'https://github.com/alibaba/ai-matrix/tree/master/results',
-	        type: 'normal',
+          type: 'normal',
         },
         {
           text: '目标',
-          link: '/zh-cn/doc/goals.html',
+          link: '/zh-cn/docs/goals.html',
           type: 'normal',
         },
         {
@@ -29,7 +29,7 @@ export default {
     users: {
       title: '参与组织',
       list: [
-        '/img/alibaba-color.jpg', 
+        '/img/alibaba-color.jpg',
       ],
     },
   },
@@ -50,7 +50,7 @@ export default {
         },
         {
           text: 'Goals',
-          link: '/en-us/doc/goals.html',
+          link: '/en-us/docs/goals.html',
           type: 'normal',
         },
         {
