@@ -24,7 +24,7 @@ export default {
       title: 'Documentation',
       list: [
         {
-          text: 'Mission',
+          text: 'Goals',
           link: '/en-us/docs/goals.html',
         },
         {
@@ -50,7 +50,7 @@ export default {
         },
       ],
     },
-    copyright: 'Copyright © 2018 Alibaba',
+    copyright: 'Copyright © 2018 Alibaba    Contact:aimatrix@list.alibaba-inc.com',
   },
   'zh-cn': {
     pageMenu: [
@@ -99,6 +99,6 @@ export default {
         }
       ]
     },
-    copyright: 'Copyright © 2018 Alibaba'
+    copyright: 'Copyright © 2018 Alibaba    Contact:aimatrix@list.alibaba-inc.com'
   }
 };

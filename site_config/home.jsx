@@ -30,6 +30,11 @@ export default {
       title: '参与组织',
       list: [
         '/img/alibaba-color.jpg',
+        '/img/alibaba-color.jpg',
+        '/img/alibaba-color.jpg',
+        '/img/alibaba-color.jpg',
+        '/img/alibaba-color.jpg',
+        '/img/alibaba-color.jpg',
       ],
     },
   },
@@ -44,7 +49,7 @@ export default {
           type: 'primary',
         },
         {
-          text: 'Mission',
+          text: 'Goals',
           link: '/en-us/docs/goals.html',
           type: 'normal',
         },
@@ -63,6 +68,11 @@ export default {
     users: {
       title: 'Supporting Organizations',
       list: [
+        '/img/alibaba-color.jpg',
+        '/img/alibaba-color.jpg',
+        '/img/alibaba-color.jpg',
+        '/img/alibaba-color.jpg',
+        '/img/alibaba-color.jpg',
         '/img/alibaba-color.jpg',
       ],
     },

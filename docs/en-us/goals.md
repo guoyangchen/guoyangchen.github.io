@@ -1,4 +1,4 @@
-# Mission  
+# Goals  
 AI Matrix is a benchmark suite for testing AI software frameworks and hardware platforms. It aims at providing users a means of measuring the performance of different AI sofware and hardware and comparing their pros and cons. It also helps users gain insights into various factors that affect AI hardware performance and improve hardware design.
 
 ![img](./structure.jpg)  
