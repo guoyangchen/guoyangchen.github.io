@@ -2,24 +2,24 @@
 ### Micro Benchmarks
 The micro benchmark category consists of tests that measure the performance of the basic operations involved in training deep learning neural networks. This category mainly targets the GPU hardware platform and consists of the following tests.  
 1. GEMM  
-  Matrix-matrix multiplication (GEMM) is a fundamental operation in many scientific, engineering, and machine learning applications. There is a continuing demand to optimize this operation. From this point of view, the performance of GEMM is fundamental capability of an AI accelerator. This test consists of a variaty of differently parameterized GEMM operations, convolution, and memory operations.
+  Matrix-matrix multiplication (GEMM) is a fundamental operation in many scientific, engineering, and machine learning applications. There is a continuing demand to optimize this operation. From this point of view, the performance of GEMM is fundamental capability of an AI accelerator. This test consists of a variety of differently parameterized GEMM operations, convolution, and memory operations.
 
 ### Layer-based Benchmarks
-The neural networks are consisted of one or more different layers and each layer involves some commonly used operations. To better investigate the perfomrance of a neural network, it is inevitable to perform the evaluation on single layer performance. The layer-based benchmarks create layers using these important operations and aim at testing the performance of isolated layers on AI accelerators.
+The neural networks are consisted of one or more different layers and each layer involves some commonly used operations. To better investigate the performance of a neural network, it is inevitable to perform the evaluation on single layer performance. The layer-based benchmarks create layers using these important operations and aim at testing the performance of isolated layers on AI accelerators.
 
 ### Macro Benchmarks
-The macro benchmarks include the CNN and RNN models. The purpose of this benchmarks to test the performance of complete models with focus on inference. The models weights are obtained by trained on a few hundreds iterations with initial random numbers (it is enough for performance testing purpose). They will be tested in two frameworks: caffe and tensorflow. Caffe models and weights are input to TensorRT and the results are based on TensorRT optimized graph. Tensorflow models are coded and tested in Tensorflow framework. The CNN models need to train a few hundreds iterations get obtain the initial checkpoint files. Later, these files are used in inference test phase.  
+The macro benchmarks include the CNN and RNN models. The purpose of this benchmarks to test the performance of complete models with focus on inference. The models weights are obtained by trained on a few hundred of iterations with initial random numbers (it is enough for performance testing purpose). They will be tested in two frameworks: Caffe and Tensorflow. Caffe models and weights are input to TensorRT and the results are based on TensorRT optimized graph. Tensorflow models are coded and tested in Tensorflow framework. The CNN models need to train a few hundred of iterations get obtain the initial checkpoint files. Later, these files are used in inference test phase.  
 Our model database tracks the academia and industry innovative development of new algorithm and models all the time. New models could be added if they are satisfied with our selection standards.  
 
 The macro benchmarks collect a couple of commonly used models in both academia and industry, including CNN models of ILSVRC champions. Besides, it also include some RNN based application in NLP. This benchmarks are evaluated for their performance of running the complete models to get sense of the performance data for some major applications categories.  
   
 1. Image classification  
-The CNN models consist of the following below. The caffe with tensorRT and tensorflow implementations are included.
-    * googleneti  
-    * vgg16  
-    * resnet50 
-    * resnet152 
-    * densenet 
+The CNN models consist of the following below. The Caffe with TensorRT and Tensorflow implementations are included.
+    * GoogLeNet  
+    * Vgg16  
+    * Resnet50 
+    * Resnet152 
+    * Densenet 
 
 2. Object detection  
     2.1 Mask RCNN  
@@ -29,7 +29,7 @@ https://github.com/matterport/Mask_RCNN
 
     2.2 SSD  
     Single Shot MultiBox Detector (SSD) is  proposed in 2016 and is being used and customized by many compute vision researchers and engineers. It has quite a lot impact to the object detection area.
-We collect the code from below which is re-implementation of original caffe implementation.  
+We collect the code from below which is re-implementation of original Caffe implementation.  
 https://github.com/balancap/SSD-Tensorflow 
 
 3. NMT  
@@ -38,12 +38,12 @@ We collect the code from below
 https://github.com/tensorflow/nmt
   
 4. DeepSpeech  
-Deepspeech is speech recognition framework proposed by Baidu in 2014. This is re-implementation of it in tensorflow by Firefox open source project. Deepspeech core architecture is based on well organized RNN network with some data systhesis techniques that allow users to train the system efficiently.
+DeepSpeech is speech recognition framework proposed by Baidu in 2014. This is re-implementation of it in Tensorflow by Firefox open source project. DeepSpeech core architecture is based on well-organized RNN network with some data synthesis techniques that allow users to train the system efficiently.
 We collect the code from below  
 https://github.com/mozilla/DeepSpeech
 
 5. Deep Interest Network (from Alimama)  
-Alimama belongs to Alibaba Group, is a leading marketing platform for Big Data with Alibaba Group's core business data. Deep Interest Network (DIN) is developed by Alimama engineer and now has been successfully deployed in the online display advertising system in Alibaba, serving the main traffic. The framework addresses the problem of click-through rate (CTR) prediction which is an essential task in industrial applications, such as online advertising. The performance of CTR prediction model has a direct impact on the final revenue and plays a key role in the advertising system. This model plays an important role in Alibaba Group.  
+Alimama belongs to Alibaba Group and it is a leading marketing platform for Big Data with Alibaba Group's core business data. Deep Interest Network (DIN) is developed by Alimama engineer and now has been successfully deployed in the online display advertising system in Alibaba, serving the main traffic. The framework addresses the problem of click-through rate (CTR) prediction which is an essential task in industrial applications, such as online advertising. The performance of CTR prediction model has a direct impact on the final revenue and plays a key role in the advertising system. This model plays an important role in Alibaba Group.  
 Model are contributed by the authors of "Deep Interest Network for Click-Through Rate Prediction". Thanks for the contribution from Guorui Zhou, Peng Sun, Zelin Hu, etc..  
 https://github.com/zhougr1993/DeepInterestNetwork
 
@@ -55,4 +55,4 @@ Unfortunately, the current AI benchmarks always suffer some drawbacks of traditi
 We propose a synthetic benchmarks framework is firstly proposed to address the above drawbacks of AI benchmarks. Instead of pre-selecting a set of open-sourced benchmarks and running all of them, the synthetic approach generates only a one or few benchmarks that best represent a broad range of applications using profiled workload characteristics data of these applications. Thus, it can adapt to emerging changes of new DL algorithms by re-profiling new applications and updating itself, greatly reduce benchmark count and running time, and strongly represent DL applications of interests. The generated benchmarks serve as a performance benchmarks matching the statistical workload characteristics of a combination of applications of interests.
 
 # Suggestions
-We keep working hard to develope our benchmark suites. Any suggestions, contributions and improvements from anyone are welcome. Please do not hesitate to contact us if you want to participate in this open source project. You could submit questions on Github or contact us through aimatrix@list.alibaba-inc.com
+We keep working hard to develop our benchmark suites. Any suggestions, contributions and improvements from anyone are welcome. Please do not hesitate to contact us if you want to participate in this open source project. You could submit questions on Github or contact us through aimatrix@list.alibaba-inc.com
