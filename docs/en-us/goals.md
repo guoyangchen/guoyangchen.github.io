@@ -2,7 +2,7 @@
 AI Matrix is a benchmark suite for testing AI software frameworks and hardware platforms. It aims at providing users a means of measuring the performance of different AI software and hardware and comparing their pros and cons. It also helps users gain insights into various factors that affect AI hardware performance and improve hardware design.
 
 ![img](./structure.jpg)  
-The AI Matrix suite consists of four categories of tests: micro benchmarks, layer-based benchmarks, macro benchmarks, and synthetic benchmarks (StatsNet); they provide tests at different granularity. 
+The AI Matrix suite consists of [**four categories**](./contents.md) of tests: micro benchmarks, layer-based benchmarks, macro benchmarks, and synthetic benchmarks (StatsNet); they provide tests at different granularity. 
   - Micro benchmarks are focused on basic hardware level GEMM computation, which is the foundation of most neural networks
   - Layer-based benchmarks are focused on evaluating the basic elements of neural network
   - Macro benchmarks evaluate the complete models from different application areas

@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="/build/documentation.css" />
 </head>
 <body>
-	<div id="root"><div class="documentation-page" data-reactroot="" data-reactid="1" data-react-checksum="378697466"><header class="header-container header-container-normal" data-reactid="2"><div class="header-body" data-reactid="3"><a href="/zh-cn/index.html" data-reactid="4"><img class="logo" src="/img/ai_small_green.png" data-reactid="5"/></a><span class="language-switch language-switch-normal" data-reactid="6">En</span><div class="header-menu" data-reactid="7"><img class="header-menu-toggle" src="/img/system/menu_gray.png" data-reactid="8"/><ul data-reactid="9"><li class="menu-item menu-item-normal" data-reactid="10"><a href="/zh-cn/index.html" target="_self" data-reactid="11">首页</a></li><li class="menu-item menu-item-normal menu-item-normal-active" data-reactid="12"><a href="/zh-cn/docs/goals.html" target="_self" data-reactid="13">文档</a></li></ul></div></div></header><div class="bar" data-reactid="14"><div class="bar-body" data-reactid="15"><img src="/img/system/docs.png" class="front-img" data-reactid="16"/><span data-reactid="17">文档</span><img src="/img/system/docs.png" class="back-img" data-reactid="18"/></div></div><section class="content-section" data-reactid="19"><div class="sidemenu" data-reactid="20"><div class="sidemenu-toggle" data-reactid="21"><img src="https://img.alicdn.com/tfs/TB1E6apXHGYBuNjy0FoXXciBFXa-200-200.png" data-reactid="22"/></div><ul data-reactid="23"><li class="menu-item menu-item-level-1" data-reactid="24"><span data-reactid="25">文档</span><ul data-reactid="26"><li style="height:36px;overflow:hidden;" class="menu-item menu-item-level-2" data-reactid="27"><a href="/zh-cn/docs/goals.html" target="_self" data-reactid="28">目标</a></li><li style="height:36px;overflow:hidden;" class="menu-item menu-item-level-2" data-reactid="29"><a href="/zh-cn/docs/contents.html" target="_self" data-reactid="30">内容</a></li><li style="height:36px;overflow:hidden;" class="menu-item menu-item-level-2" data-reactid="31"><a href="/zh-cn/docs/metrics.html" target="_self" data-reactid="32">标准</a></li></ul></li></ul></div><div class="doc-content markdown-body" data-reactid="33"><h1>测试</h1>
+	<div id="root"><div class="documentation-page" data-reactroot="" data-reactid="1" data-react-checksum="330790234"><header class="header-container header-container-normal" data-reactid="2"><div class="header-body" data-reactid="3"><a href="/zh-cn/index.html" data-reactid="4"><img class="logo" src="/img/ai_small_green.png" data-reactid="5"/></a><span class="language-switch language-switch-normal" data-reactid="6">En</span><div class="header-menu" data-reactid="7"><img class="header-menu-toggle" src="/img/system/menu_gray.png" data-reactid="8"/><ul data-reactid="9"><li class="menu-item menu-item-normal" data-reactid="10"><a href="/zh-cn/index.html" target="_self" data-reactid="11">首页</a></li><li class="menu-item menu-item-normal menu-item-normal-active" data-reactid="12"><a href="/zh-cn/docs/goals.html" target="_self" data-reactid="13">文档</a></li></ul></div></div></header><div class="bar" data-reactid="14"><div class="bar-body" data-reactid="15"><img src="/img/system/docs.png" class="front-img" data-reactid="16"/><span data-reactid="17">文档</span><img src="/img/system/docs.png" class="back-img" data-reactid="18"/></div></div><section class="content-section" data-reactid="19"><div class="sidemenu" data-reactid="20"><div class="sidemenu-toggle" data-reactid="21"><img src="https://img.alicdn.com/tfs/TB1E6apXHGYBuNjy0FoXXciBFXa-200-200.png" data-reactid="22"/></div><ul data-reactid="23"><li class="menu-item menu-item-level-1" data-reactid="24"><span data-reactid="25">文档</span><ul data-reactid="26"><li style="height:36px;overflow:hidden;" class="menu-item menu-item-level-2" data-reactid="27"><a href="/zh-cn/docs/goals.html" target="_self" data-reactid="28">目标</a></li><li style="height:36px;overflow:hidden;" class="menu-item menu-item-level-2" data-reactid="29"><a href="/zh-cn/docs/contents.html" target="_self" data-reactid="30">内容</a></li><li style="height:36px;overflow:hidden;" class="menu-item menu-item-level-2" data-reactid="31"><a href="/zh-cn/docs/metrics.html" target="_self" data-reactid="32">标准</a></li></ul></li></ul></div><div class="doc-content markdown-body" data-reactid="33"><h1>测试</h1>
 <h3>底层测试</h3>
 <p>底层测试类包含测量深度学习神经网络里的基本操作性能的测试。这一类主要针对GPU硬件并包含如下测试。</p>
 <ol>
@@ -22,17 +22,17 @@
 <h3>单层测试</h3>
 <p>神经网络由一个或者多个层组成，每一层包括一些常用的操作。为了更好的调查神经网络的性能，评估单层的性能不可避免。层测试使用一些重要的操作产生不同的层去测试单独的层在AI加速器上的性能。</p>
 <h3>完整测试</h3>
-<p>完整测试包含CNN和RNN模型。这一类测试的目的是测量完整模型的性能，重点在于测试推导的性能。模型的重量参数通过训练这些网络几百个来回得到，训练开始时这些参数被初始化为随机数（这对性能测试足够了）。这些测试有两个软件框架：tensorflow和caffe。Caffe模型和重量参数被送到TensorRT上优化，结果是基于TensorRT优化之后的计算图。Tensorflow模型是在tensorflow框架里编写和测试的。CNN模型先被训练几百个来回以产生初始的检查点文件，这些检查点文件再被用到推导中。我们的模型数据库始终追踪学术界和工业界最新的算法和模型发展。满足筛选条件的新模型会被加入我们的测试中。</p>
+<p>完整测试包含CNN和RNN模型。这一类测试的目的是测量完整模型的性能，重点在于测试推导的性能。模型的重量参数通过训练这些网络几百个来回得到，训练开始时这些参数被初始化为随机数（这对性能测试足够了）。这些测试有两个软件框架：Tensorflow和Caffe。Caffe模型和重量参数被送到TensorRT上优化，结果是基于TensorRT优化之后的计算图。Tensorflow模型是在Tensorflow框架里编写和测试的。CNN模型先被训练几百个来回以产生初始的检查点文件，这些检查点文件再被用到推导中。我们的模型数据库始终追踪学术界和工业界最新的算法和模型发展。满足筛选条件的新模型会被加入我们的测试中。</p>
 <p>宏测试收集了一些学术届和工业界常用的模型，包括CNN模型和ILSVRC冠军模型。除此以外，还包括一些基于RNN的应用。这些模型被完整的跑下来以评估它们的性能。这些模型包含一下几类。</p>
 <ol>
 <li>图像分类<br>
-CNN模型包含以下模型，分别用tensorRT优化的caffe和tensorflow实现的。
+CNN模型包含以下模型，分别用TensorRT优化的Caffe和Tensorflow实现的。
 <ul>
-<li>googlenet</li>
-<li>vgg16</li>
-<li>resnet50</li>
-<li>resnet152</li>
-<li>densenet</li>
+<li>GoogLenet</li>
+<li>Vgg16</li>
+<li>Resnet50</li>
+<li>Resnet152</li>
+<li>Densenet</li>
 </ul>
 </li>
 <li>物体识别<br>
@@ -46,7 +46,7 @@ Single Shot MultiBox Detector (SSD)在2016年被提出并且被许多计算机�
 神经机器翻译（NMT）是一个基于序列到序列到模型。这个模型在2014年被提出并且改进了一系列的任务，例如，机器翻译，语音识别，和文本总结。很多研究者和算法工程师会直接使用或者修改这个模型。我们从这里收集到NMT的代码
 <a href="https://github.com/tensorflow/nmt">https://github.com/tensorflow/nmt</a></li>
 <li>DeepSpeech<br>
-DeepSpeech是一个由百度在2014年提出的语音识别框架。这是由Firefox开源项目在tensorflow中重新实现的。 Deepspeech核心架构基于组织良好的RNN网络和一些数据合成技术，允许用户有效地训练系统。 我们从这里收集到DeepSpeech的代码<br>
+DeepSpeech是一个由百度在2014年提出的语音识别框架。这是由Firefox开源项目在Tensorflow中重新实现的。 Deepspeech核心架构基于组织良好的RNN网络和一些数据合成技术，允许用户有效地训练系统。 我们从这里收集到DeepSpeech的代码<br>
 <a href="https://github.com/mozilla/DeepSpeech">https://github.com/mozilla/DeepSpeech</a></li>
 <li>Deep Interest Network（来自阿里妈妈）
 阿里妈妈属于阿里巴巴集团，是阿里巴巴集团核心业务数据的大数据领先营销平台。 Deep Interest Network（DIN）由阿里妈妈工程师开发，现已成功部署在阿里巴巴的在线展示广告系统中，为主要流量提供服务。 该框架解决了点击率（CTR）预测的问题，这是工业应用中的重要任务，例如在线广告。 CTR预测模型的性能对最终收入有直接影响，并在广告系统中起关键作用。 该模型在阿里巴巴集团中发挥着重要作用。
