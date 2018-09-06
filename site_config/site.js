@@ -50,7 +50,7 @@ export default {
         },
       ],
     },
-    copyright: 'Copyright © 2018 Alibaba    Contact:aimatrix@list.alibaba-inc.com',
+    copyright: 'Copyright © 2018 Alibaba\u00a0\u00a0\u00a0\u00a0Contact:aimatrix@list.alibaba-inc.com',
   },
   'zh-cn': {
     pageMenu: [
@@ -99,6 +99,6 @@ export default {
         }
       ]
     },
-    copyright: 'Copyright © 2018 Alibaba    Contact:aimatrix@list.alibaba-inc.com'
+    copyright: 'Copyright © 2018 Alibaba\u00a0\u00a0\u00a0\u00a0Contact:aimatrix@list.alibaba-inc.com',
   }
 };

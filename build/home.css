@@ -967,7 +967,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 60px; }
   .home-page .users-section .users {
-    display: inline-block;
     text-align: center; }
     .home-page .users-section .users img {
       margin-right: 10px;
