@@ -13,16 +13,16 @@
 
 ### 完整测试 
 
-完整测试包含CNN和RNN模型。这一类测试的目的是测量完整模型的性能，重点在于测试推导的性能。模型的重量参数通过训练这些网络几百个来回得到，训练开始时这些参数被初始化为随机数（这对性能测试足够了）。这些测试有两个软件框架：tensorflow和caffe。Caffe模型和重量参数被送到TensorRT上优化，结果是基于TensorRT优化之后的计算图。Tensorflow模型是在tensorflow框架里编写和测试的。CNN模型先被训练几百个来回以产生初始的检查点文件，这些检查点文件再被用到推导中。我们的模型数据库始终追踪学术界和工业界最新的算法和模型发展。满足筛选条件的新模型会被加入我们的测试中。  
+完整测试包含CNN和RNN模型。这一类测试的目的是测量完整模型的性能，重点在于测试推导的性能。模型的重量参数通过训练这些网络几百个来回得到，训练开始时这些参数被初始化为随机数（这对性能测试足够了）。这些测试有两个软件框架：Tensorflow和Caffe。Caffe模型和重量参数被送到TensorRT上优化，结果是基于TensorRT优化之后的计算图。Tensorflow模型是在Tensorflow框架里编写和测试的。CNN模型先被训练几百个来回以产生初始的检查点文件，这些检查点文件再被用到推导中。我们的模型数据库始终追踪学术界和工业界最新的算法和模型发展。满足筛选条件的新模型会被加入我们的测试中。  
 
 宏测试收集了一些学术届和工业界常用的模型，包括CNN模型和ILSVRC冠军模型。除此以外，还包括一些基于RNN的应用。这些模型被完整的跑下来以评估它们的性能。这些模型包含一下几类。  
 1. 图像分类  
-CNN模型包含以下模型，分别用tensorRT优化的caffe和tensorflow实现的。  
-    * googlenet   
-    * vgg16  
-    * resnet50  
-    * resnet152  
-    * densenet  
+CNN模型包含以下模型，分别用TensorRT优化的Caffe和Tensorflow实现的。  
+    * GoogLenet   
+    * Vgg16  
+    * Resnet50  
+    * Resnet152  
+    * Densenet  
 2. 物体识别  
     2.1 Mask RCNN  
     作为ILSCVRC的一项挑战，出现了很多重要的和流行的物体探测的算法。我们在我们的测试中收集了Mask RCNN。在Mask RCNN框架中，resnet101是主要支柱。推导测试了28个图像。每一个图像被复制n次以增大batch size。所以总共探测的图像数量是28n。我们从这里收集Mask RCNN的源代码  
@@ -34,7 +34,7 @@ CNN模型包含以下模型，分别用tensorRT优化的caffe和tensorflow实现
 神经机器翻译（NMT）是一个基于序列到序列到模型。这个模型在2014年被提出并且改进了一系列的任务，例如，机器翻译，语音识别，和文本总结。很多研究者和算法工程师会直接使用或者修改这个模型。我们从这里收集到NMT的代码 
 https://github.com/tensorflow/nmt  
 4. DeepSpeech  
-DeepSpeech是一个由百度在2014年提出的语音识别框架。这是由Firefox开源项目在tensorflow中重新实现的。 Deepspeech核心架构基于组织良好的RNN网络和一些数据合成技术，允许用户有效地训练系统。 我们从这里收集到DeepSpeech的代码  
+DeepSpeech是一个由百度在2014年提出的语音识别框架。这是由Firefox开源项目在Tensorflow中重新实现的。 Deepspeech核心架构基于组织良好的RNN网络和一些数据合成技术，允许用户有效地训练系统。 我们从这里收集到DeepSpeech的代码  
 https://github.com/mozilla/DeepSpeech  
 5. Deep Interest Network（来自阿里妈妈）
 阿里妈妈属于阿里巴巴集团，是阿里巴巴集团核心业务数据的大数据领先营销平台。 Deep Interest Network（DIN）由阿里妈妈工程师开发，现已成功部署在阿里巴巴的在线展示广告系统中，为主要流量提供服务。 该框架解决了点击率（CTR）预测的问题，这是工业应用中的重要任务，例如在线广告。 CTR预测模型的性能对最终收入有直接影响，并在广告系统中起关键作用。 该模型在阿里巴巴集团中发挥着重要作用。
