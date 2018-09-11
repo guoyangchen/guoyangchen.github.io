@@ -18,7 +18,7 @@ export default {
     ],
     disclaimer: {
       title: 'Disclaimer',
-      content: 'the disclaimer content',
+      content: 'Disclaimer Statement',
     },
     documentation: {
       title: 'Documentation',
@@ -67,7 +67,7 @@ export default {
     ],
     disclaimer: {
       title: '免责声明',
-      content: '免责声明的具体内容',
+      content: '免责声明条款',
     },
     documentation: {
       title: '文档',
