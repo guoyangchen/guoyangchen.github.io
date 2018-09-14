@@ -25,6 +25,15 @@
         box-sizing: border-box;
         vertical-align: top;
       }
+      a {
+	font-size: 14px;
+	font-weight: 700;
+	color: #999;
+      }
+      a:hover{
+	color: $brandColor;
+      }
+
       .col-12 {
         width: 50%;
         padding-right: 125px;

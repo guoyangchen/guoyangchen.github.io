@@ -20,7 +20,7 @@ export default {
     ],
     disclaimer: {
       title: 'Disclaimer',
-      content: <a href="https://www.taobao.com">Disclaimer Statement</a>,
+      content: <a href="https://github.com/aimatrix-alibaba/ai-matrix-website/blob/master/docs/zh-cn/disclaimer.md">Disclaimer Statement</a>,
     },
     documentation: {
       title: 'Documentation',
@@ -69,7 +69,7 @@ export default {
     ],
     disclaimer: {
       title: '免责声明',
-      content: <a href="https://www.taobao.com">免责声明条款</a>,
+      content: <a href="https://github.com/aimatrix-alibaba/ai-matrix-website/blob/master/docs/zh-cn/disclaimer.md">免责声明条款</a>,
     },
     documentation: {
       title: '文档',
