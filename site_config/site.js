@@ -1,4 +1,6 @@
 // 全局的一些配置，包括页面顶部导航栏和页面底部的一些配置
+import React from 'react';
+
 export default {
   defaultLanguage: 'en-us',
   rootPath: '', // 发布到服务器的根目录，需以/开头但不能有尾/，如果只有/，请填写空字符串
@@ -18,7 +20,7 @@ export default {
     ],
     disclaimer: {
       title: 'Disclaimer',
-      content: 'Disclaimer Statement',
+      content: <a href="https://www.taobao.com">Disclaimer Statement</a>,
     },
     documentation: {
       title: 'Documentation',
@@ -67,7 +69,7 @@ export default {
     ],
     disclaimer: {
       title: '免责声明',
-      content: '免责声明条款',
+      content: <a href="https://www.taobao.com">免责声明条款</a>,
     },
     documentation: {
       title: '文档',
