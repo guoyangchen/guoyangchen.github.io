@@ -20,7 +20,7 @@ export default {
     ],
     disclaimer: {
       title: 'Disclaimer',
-      content: <a href="https://github.com/aimatrix-alibaba/ai-matrix-website/blob/master/docs/zh-cn/disclaimer.md">Disclaimer Statement</a>,
+      content: <a href="https://github.com/aimatrix-alibaba/ai-matrix-website/blob/master/docs/en-us/disclaimer.md">Disclaimer Statement</a>,
     },
     documentation: {
       title: 'Documentation',
