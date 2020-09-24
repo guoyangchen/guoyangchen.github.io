@@ -65,6 +65,11 @@ export default {
           link: '/en-us/blog/blog1.html',
           type: 'normal',
         },
+        {
+          text: 'AutoSinian',
+          link: 'https://github.com/alibaba/ai-matrix/tree/master/results',
+          type: 'normal',
+        },
       ],
     },
     users: {
