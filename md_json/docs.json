@@ -1,0 +1,56 @@
+{
+  "en-us": [
+    {
+      "filename": "contents.md",
+      "link": "\\en-us\\docs\\contents.html",
+      "meta": {}
+    },
+    {
+      "filename": "demo2.md",
+      "link": "\\en-us\\docs\\demo2.html",
+      "meta": {}
+    },
+    {
+      "filename": "demo3.md",
+      "link": "\\en-us\\docs\\dir\\demo3.html",
+      "meta": {}
+    },
+    {
+      "filename": "disclaimer.md",
+      "link": "\\en-us\\docs\\disclaimer.html",
+      "meta": {}
+    },
+    {
+      "filename": "goals.md",
+      "link": "\\en-us\\docs\\goals.html",
+      "meta": {}
+    },
+    {
+      "filename": "metrics.md",
+      "link": "\\en-us\\docs\\metrics.html",
+      "meta": {}
+    }
+  ],
+  "zh-cn": [
+    {
+      "filename": "contents.md",
+      "link": "\\zh-cn\\docs\\contents.html",
+      "meta": {}
+    },
+    {
+      "filename": "disclaimer.md",
+      "link": "\\zh-cn\\docs\\disclaimer.html",
+      "meta": {}
+    },
+    {
+      "filename": "goals.md",
+      "link": "\\zh-cn\\docs\\goals.html",
+      "meta": {}
+    },
+    {
+      "filename": "metrics.md",
+      "link": "\\zh-cn\\docs\\metrics.html",
+      "meta": {}
+    }
+  ]
+}

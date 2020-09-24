@@ -42,7 +42,8 @@ export default {
   'en-us': {
     brand: {
       brandImg: '/img/ai_big_green.png',
-      briefIntroduction: 'To make it easy to benchmark AI accelerators',
+      briefIntroduction: "To make it easy to benchmark AI accelerators",
+      briefIntroduction2: "SINIAN is the future",
       buttons: [
         {
           text: 'Github',

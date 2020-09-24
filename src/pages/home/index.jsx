@@ -60,6 +60,7 @@ class Home extends Language {
               <img src={getLink(dataSource.brand.brandImg)} />
             </div>
             <p className="product-desc">{dataSource.brand.briefIntroduction}</p>
+            <p className="product-desc">{dataSource.brand.briefIntroduction2}</p>
             <div className="button-area">
             {
               dataSource.brand.buttons.map((b, i) => <Button key={i} type={b.type} link={b.link} target={b.target}>{b.text}</Button>)
