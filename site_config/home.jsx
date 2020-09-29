@@ -3,6 +3,7 @@ export default {
     brand: {
       brandImg: '/img/ai_big_green.png',
       briefIntroduction: '让天下没有难测的AI加速器',
+      briefIntroduction2: "未来属于震旦",
       buttons: [
         {
           text: '前往 Github',
@@ -22,6 +23,11 @@ export default {
         {
           text: '技术博客',
           link: '/zh-cn/blog/blog1.html',
+          type: 'normal',
+        },
+        {
+          text: '震旦自动调优框架',
+          link: 'https://github.com/aliyun/autosinian-performance-tuning-framework',
           type: 'normal',
         },
       ],
@@ -67,7 +73,7 @@ export default {
         },
         {
           text: 'AutoSinian',
-          link: 'https://github.com/alibaba/ai-matrix/tree/master/results',
+          link: 'https://github.com/aliyun/autosinian-performance-tuning-framework',
           type: 'normal',
         },
       ],
